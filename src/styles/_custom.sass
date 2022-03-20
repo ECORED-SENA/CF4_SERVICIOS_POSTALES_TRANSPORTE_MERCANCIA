@@ -1,0 +1,58 @@
+// General
+.animated
+  -webkit-animation-duration: 1s
+  animation-duration: 1s
+  -webkit-animation-fill-mode: both
+  animation-fill-mode: both
+
+@keyframes fadeIn
+  from
+    opacity: 0
+
+  to
+    opacity: 1
+
+.fadeIn
+  animation-name: fadeIn
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/banner/fondo-banner-interno.jpg") !important
+  background-repeat: no-repeat  
+  
+.titulo-principal__numero > span
+  color: white !important
+
+.img450
+  max-width: 450px !important  
+
+.cajon p
+  padding-bottom: 0 
+  margin-bottom: 0
+
+.cajon.color-primario
+  background-color: rgba(#FFDE96,0.5)
+
+
+// Tema 1 
+.tarjeta-amarilla
+  background-color: #FED981
+  margin-bottom: 0
+  padding: 30px
+  p
+    margin-bottom: 0
+    font-size: small
+  & :first-child
+    background-color: $color-acento-contenido
+    font-weight: bold
+    padding-left: 5px
+    width: 30px
+  @media screen and (max-width: 1199px)
+    height: 118px
+
+.tabs-a__tab
+  background-color: #E8E8E8
+  font-size: small
+.tabs-a__content-item
+  background-color: rgba(#F9D98D,0.15)
+  border: 1px solid rgba(#E3BD63,0.15)
+  border-radius: 15px

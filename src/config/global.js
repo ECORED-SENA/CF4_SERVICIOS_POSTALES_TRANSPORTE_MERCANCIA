@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Disposición de objetos postales y mercancía',
     descripcionCurso:
       'La actividad de almacenamiento consiste en ubicar la mercancía en la zona de almacenaje hasta que sea solicitada por el cliente; para ello es importante utilizar los medios adecuados para el transporte interno de mercancía, así como las herramientas tecnológicas disponibles y ubicarla en la zona más conveniente, con el fin de acceder y localizarla fácilmente.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/banner/imagen-banner.svg'),
     fondoBannerPrincipal: require('@/assets/curso/banner/fondo-banner.png'),
   },
   menuPrincipal: {
