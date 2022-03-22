@@ -179,7 +179,102 @@
           .col-auto
             img(src='@/assets/curso/tema2/img02.svg', alt='Tipos de almacenes')
 
+      .col.col-12
+        p Para un almacenamiento eficaz es necesario planificar las diferentes zonas del almacén, teniendo en cuenta:
 
+        ol.lista-ol--cuadro.lista-separador
+          li
+            .lista-ol--cuadro__vineta
+              span 1
+            | Necesidades de la mercancía a almacenar.
+          li
+            .lista-ol--cuadro__vineta
+              span 2
+            | Metodología de trabajo en el almacén.
+          li
+            .lista-ol--cuadro__vineta
+              span 3
+            | Unidades recibidas por suministro y frecuencia.
+          li
+            .lista-ol--cuadro__vineta
+              span 4
+            | Medios de transporte requeridos para trabajar en cada zona.
+          li
+            .lista-ol--cuadro__vineta
+              span 5
+            | Técnicas de almacenaje a emplear.
+          li
+            .lista-ol--cuadro__vineta
+              span 6
+            | Superficie de almacenamiento disponible.
+          li
+            .lista-ol--cuadro__vineta
+              span 7
+            | Personal.
+        br
+        br
+        p.fw-bold Sistemas de almacenamiento 
+        p Dependiendo del sector y la naturaleza de la empresa existen diferentes soluciones de almacenamiento específicas, con las cuales conseguir una mayor eficiencia en función de factores como: la manera de colocar la mercancía, la localización o las características de los materiales, a continuación, se presentan algunas formas de apilamiento a tener en cuenta:
+
+    .row.d-flex.justify-content-center
+      .col.col-10
+        .tabla-b.color-acento-contenido.mb-5
+          .tabla-b__header
+            .row
+              .col-3
+                h5.mb-0 Forma de apilado
+              .col-9
+                h5.mb-0 Características
+          table
+            tr
+              th Almacenamiento ordenado
+              td 
+                p Los productos están asignados a una ubicación específica. 
+                p La manipulación se realiza de forma eficaz.
+                p Permite mayor control de existencias.
+            tr
+              th Almacenamiento no regulado
+              td 
+                p Según la rotación de la mercancía se van ocupando zonas disponibles. 
+                p Deficiente control de existencias.
+            tr
+              th Almacenamiento en bloque
+              td 
+                p Almacenamiento según las operaciones de carga y descarga.
+                p No requiere gastos derivados de instalaciones específicas.
+            tr
+              th Almacenamiento a granel
+              td 
+                p Para materiales diseñados como unidades de carga.
+                p Según el tipo de producto, puede ser compatible con las condiciones ambientales del entorno.
+      
+      .col.col-12
+        p Adicionalmente, a nivel general se pueden identificar los siguientes sistemas de almacenamiento:
+      .col.col-12.d-flex.justify-content-center
+        ImagenInfografica.mb-5
+          template(v-slot:imagen)
+            figure
+              img.img600(src='@/assets/curso/tema2/img03.png', alt='Texto que describa la imagen')
+        
+          .tarjeta.bg-tarjeta-info.p-3(x='11.5%' y='63.5%' numero='')
+            .h5.mb-2 Sistema de bloques apilados
+            p Se trata de formar bloques de productos homogéneos separados por pasillos, los cuales permiten el fácil acceso cada uno de ellos, se usa cuando existe un número reducido de referencias, pero viene en grandes cantidades por referencia.
+            p En este sistema se aprovecha la superficie a no haber estanterías, adicionalmente se reduce la cantidad de pasillos, sin embargo, es difícil acceder a una referencia específica y puede existir posibilidad de deterioro.
+
+          .tarjeta.bg-tarjeta-info.p-3(x='33%' y='23%' numero='')
+            .h5.mb-2 Sistema convencional
+            p En este sistema se utiliza un soporte intermedio (estanterías) que separa la mercancía, permitiendo que el almacén aproveche su espacio.
+            p Consiste en almacenar mercancía paletizada e individual. Se usa en los casos que se almacenan productos paletizados con variedad de referencias; la principal ventaja es que la mercancía se puede manipular sin dificultad y permite un control sencillo de las existencias, sin embargo, es necesario almacenar la mercancía con paletas de una sola medida, pues las estanterías están adaptadas a esa dimensión.
+
+          .tarjeta.bg-tarjeta-info.p-3(x='61.8%' y='23%' numero='')
+            .h5.mb-2 Sistema dinámico
+            p Este sistema se utiliza para mercancías que requieren una rotación perfecta, está conformado por estanterías metálicas que tienen incorporados caminos de rodillos.
+            p Estas pueden tener inclinación o estar dispuestas horizontalmente si existe automatización.
+
+          .tarjeta.bg-tarjeta-info.p-3(x='85%' y='63.5%' numero='')
+            .h5.mb-2 Sistema compacto
+            p Permite el almacenamiento de la mercancía en estanterías, aceptando el paso de carretillas entre los pasillos formados por su propia estructura.
+            p En este almacenamiento se logra ocupar la superficie y el volumen disponible del almacén. Es propicio para almacenar mercancía homogénea con gran cantidad de paletas por referencia.
 </template>
 
 <script>
