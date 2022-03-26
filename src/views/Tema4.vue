@@ -1,25 +1,51 @@
 <template lang="pug">
-.curso-main-container.pb-3
+.curso-main-container.pb-3.animated.fadeIn
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
-    #t_3_1.pb-5.h2 tema 3.1
-    .pb-5(v-for="item of 15")
+    .row.d-flex.justify-content-center
+      .col.col-12
+        .titulo-principal.color-acento-contenido
+          .titulo-principal__numero
+            span 4
+          h1 Contenedores
 
-    #t_3_2.pb-5.h2 tema 3.2
-    .pb-5(v-for="item of 15")
+        .row.mb-5
+          .col.col-12.col-lg-4
+            picture
+              img(src='@/assets/curso/tema4/img01.png', alt='Contenedores', class='img-fluid')
+          .col.col-12.col-lg-8.pt-5
+            p Corresponden a elementos portátiles y con gran resistencia que protegen a la mercancía que se aloja en su interior de posibles golpes y permiten la ubicación y el apilado de mercancía, construyendo una unidad de carga, que posibilita una posterior manipulación y almacenaje, la que se puede realizar de manera manual o a través de aparatos de manutención, estos pueden ser en metal, los cuales por su resistencia son especialmente usados para el transporte de mercancía delicada y para su almacenaje se requiere estanterías que permitan colocar soportes específicos; también se encuentran contenedores en madera, los cuales normalmente se construyen sobre un pallet de madera dando la facilidad de poder usarse para el transporte como par su almacenaje en estanterías, finalmente se encuentran los contenedores en plástico, se construyen sobre una base de pallet de plástico y son especialmente usados en el sector de la alimentación.
 
-    #t_3_3.pb-5.h2 tema 3.3
-    .pb-5(v-for="item of 15")
+            p Según su característica principal se pueden clasificar como apilables y no apilables, como se muestra a continuación:
 
-    #t_3_4.pb-5.h2 tema 3.4
-    .pb-5(v-for="item of 15")
+        p.fw-bold Contenedores apilables 
+        p Son aquellos que independientemente del material de construcción están dotados de patas o soportes de modo que se puedan colocar unos sobre otros, formando una pila de almacenamiento, en estos se destacan los siguientes: 
 
-    #t_3_5.pb-5.h2 tema 3.5
-    .pb-5(v-for="item of 15")
+      .col.col-11.py-5
+        img(src='@/assets/curso/tema4/img02.svg', alt='Contenedores apilables', class='img-fluid')
 
-    #t_3_6.pb-5.h2 tema 3.6
-    .pb-5(v-for="item of 15")
+      .col.col-12.py-5
+        p.fw-bold Contenedores no apilables 
+        p Hace referencia a los contenedores que provistos de ruedas orientables y que se utilizan como elemento de enlace entre los almacenes y los centros de distribución, normalmente están construidos con tubos y alambres de acero, con laterales desmontables de forma que puedan encajar unos con otros para su almacenaje cuando están vacíos.
+
+        p El uso de este tipo de contenedores se extendió para su utilización en las grandes cadenas de alimentación y las grandes superficies de ventas, entre algunas de las ventajas con los que estos cuentan se encuentran:
+
+
+        ol.mt-5.lista-ol--cuadro.lista-separador
+          li
+            .lista-ol--cuadro__vineta
+              span 1
+            | Proteger la mercancía frente a robos o daños.
+          li
+            .lista-ol--cuadro__vineta
+              span 2
+            | Facilitar la entrega rápida de mercancía.
+          li
+            .lista-ol--cuadro__vineta
+              span 3
+            | Reducir tarifas debido a que pueden mover grandes volúmenes.
+
+
 
 </template>
 

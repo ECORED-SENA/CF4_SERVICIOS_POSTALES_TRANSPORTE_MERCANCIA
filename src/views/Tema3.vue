@@ -9,12 +9,12 @@
             span 3
           h1 Ubicación de mercancía
 
-        .row.mb-5.d-flex.align-items-center
-          .col.col-12.col-lg-7
+        .row.mb-5
+          .col.col-12.col-lg-8.pt-5
             p Para asignar la ubicación de la mercancía en el almacén es importante tener en cuenta las características de esta, como, rotación, peso, volumen, entre otras.
             p Estos datos son útiles para la toma de decisiones a la hora de definir: el tamaño de las paletas, los equipos, el sistema de almacenamiento y la amplitud de los pasillos y en general de todo lo que pueda condicionar los metros cuadrados y cúbicos que se tendrán que destinar para el almacenamiento.
             p A continuación, se presentan algunos criterios de clasificación de las mercancías y sus determinadas actividades de manipulación, que son importantes a la hora de ubicar la mercancía en el almacén, a saber:
-          .col.col-12.col-lg-5
+          .col.col-12.col-lg-4
             picture
               img(src='@/assets/curso/tema3/img01.png', alt='Ubicación de mercancía', class='img-fluid')
 
