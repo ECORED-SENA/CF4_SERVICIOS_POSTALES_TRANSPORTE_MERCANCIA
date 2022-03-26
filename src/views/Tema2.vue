@@ -217,15 +217,13 @@
         p Dependiendo del sector y la naturaleza de la empresa existen diferentes soluciones de almacenamiento específicas, con las cuales conseguir una mayor eficiencia en función de factores como: la manera de colocar la mercancía, la localización o las características de los materiales, a continuación, se presentan algunas formas de apilamiento a tener en cuenta:
 
     .row.d-flex.justify-content-center
-      .col.col-10
-        .tabla-b.color-acento-contenido.mb-5
-          .tabla-b__header
-            .row
-              .col-3
-                h5.mb-0 Forma de apilado
-              .col-9
-                h5.mb-0 Características
-          table
+      .col.col-10.my-4
+        table.tabla-color-acento-contenido.m-auto
+          thead
+            tr
+              th.w-25 Forma de apilado
+              th Características
+          tbody              
             tr
               th Almacenamiento ordenado
               td 
@@ -248,7 +246,7 @@
                 p Para materiales diseñados como unidades de carga.
                 p Según el tipo de producto, puede ser compatible con las condiciones ambientales del entorno.
       
-      .col.col-12
+      .col.col-12.my-4
         p Adicionalmente, a nivel general se pueden identificar los siguientes sistemas de almacenamiento:
       .col.col-12.d-flex.justify-content-center
         ImagenInfografica.mb-5

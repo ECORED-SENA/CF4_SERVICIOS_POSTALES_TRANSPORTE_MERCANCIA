@@ -10,6 +10,7 @@
         .banner-principal__componente
           h1.mb-0(v-html="globalData.componenteFormativo")
         .banner-principal__descripcion
+          .imagen_flotante_3: img(src='@/assets/curso/banner/img03.svg')
           p.mb-0(v-html="globalData.descripcionCurso")
         .banner-principal__accion
           router-link.boton(:to="{name: iniciarLnk.nombreRuta }")
@@ -18,7 +19,7 @@
 
       .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
         .contenedor-imagenes
-          .imagen_flotante_3: img(src='@/assets/curso/banner/img03.svg')
+          //- .imagen_flotante_3: img(src='@/assets/curso/banner/img03.svg')
           //- .imagen_flotante_4: img(src='@/assets/curso/float4.svg')
           //- .imagen_flotante_5: img(src='@/assets/curso/float5.svg')
           img(:src="globalData.imagenBannerPrincipal")
@@ -106,7 +107,7 @@ export default {
     animation: float 3s ease-out infinite alternate
     position: absolute
     width: 240px
-    top: 10%
+    top: 1%
     left: -10%
   &_2
     animation: float 2s ease-out infinite alternate
@@ -115,15 +116,17 @@ export default {
     transform-origin: top
     width: 130px
     left: 17%
-    bottom: -10%
+    bottom: -15%
   &_3
     animation: float 2s ease-out infinite alternate
     animation-delay: 0.8s
     position: absolute
     transform-origin: top
-    width: 220px
-    right: -30%
-    top: 20%
+    width: 180px
+    right: -5%
+    top: 30%
+    @media screen and (max-width: 990px)
+      display: none
   &_4
     animation: float 2s ease-out infinite alternate
     animation-delay: 1.5s
