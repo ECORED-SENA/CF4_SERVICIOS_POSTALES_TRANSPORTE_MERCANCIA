@@ -47,10 +47,12 @@
             p Maximización de la utilización de la mano de obra.
 
         .row.mb-5.d-flex.align-items-center
-          .col.col-12.col-lg-5
+          .col.col-12.col-lg-4.position-relative
+            .sobre-flotante-t2
+              img.w-50(src='@/assets/curso/banner/img01.svg', class='img-fluid')
             picture
               img(src='@/assets/curso/tema2/img01.png', alt='Gestión del almacen', class='img-fluid')
-          .col.col-12.col-lg-7
+          .col.col-12.col-lg-8
             p Para dar cumplimiento a estos objetivos, es necesario considerar la mano de obra, el espacio y los equipos con los que se cuenta, para contribuir a la correcta gestión del almacén permitiendo reducción de gastos y garantizando calidad en el servicio al cliente.
             br
             .cajon.color-acento-contenido.p-4.mb-4

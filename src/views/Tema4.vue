@@ -10,7 +10,9 @@
           h1 Contenedores
 
         .row.mb-5
-          .col.col-12.col-lg-4
+          .col.col-12.col-lg-4.position-relative
+            .sobre-flotante-t4
+              img.w-50(src='@/assets/curso/banner/img01.svg', class='img-fluid')
             picture
               img(src='@/assets/curso/tema4/img01.png', alt='Contenedores', class='img-fluid')
           .col.col-12.col-lg-8.pt-5

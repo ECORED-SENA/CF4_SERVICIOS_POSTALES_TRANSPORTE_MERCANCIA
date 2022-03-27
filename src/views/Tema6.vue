@@ -1,25 +1,88 @@
 <template lang="pug">
-.curso-main-container.pb-3
+.curso-main-container.pb-3.animated.fadeIn
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
-    #t_3_1.pb-5.h2 tema 3.1
-    .pb-5(v-for="item of 15")
+    .row.d-flex.justify-content-center
+      .col.col-12
+        .titulo-principal.color-acento-contenido
+          .titulo-principal__numero
+            span 6
+          h1 Registros
 
-    #t_3_2.pb-5.h2 tema 3.2
-    .pb-5(v-for="item of 15")
+        p Cada fase del proceso logístico debe estar documentado, con el fin de tener un mayor control sobre las actividades que se realizan; con la implementación de un software SGA se logra la automatización de la recopilación de información para facilitar el control de los documentos de los almacenes, además de reducir los errores y aumentar la productividad.
 
-    #t_3_3.pb-5.h2 tema 3.3
-    .pb-5(v-for="item of 15")
+        p Existen diferentes tipos de software con los que se logra:
+        
+        img.img700.m-auto.my-5(src='@/assets/curso/tema6/img01.svg', alt='Tipos de software', class='img-fluid')   
 
-    #t_3_4.pb-5.h2 tema 3.4
-    .pb-5(v-for="item of 15")
+        p La única manera de registrar las operaciones que se realizan en el almacén es a través de documentos y las soluciones de software son las que permiten hoy en día automatizar la recogida de la información y facilitar el acceso a los datos en cualquier momento y lugar.
 
-    #t_3_5.pb-5.h2 tema 3.5
-    .pb-5(v-for="item of 15")
+        p Algunos de los documentos que se utilizan para registrar las actividades en el almacén son los siguientes:
+      .col.col-12
+        .row.mt-5.images-wrap
+          .img-wrap
+            img.img180(src='@/assets/curso/tema6/w01.png', alt='', class='img-fluid')
+            .img-wrap__texto
+              img.img90.my-4(src='@/assets/curso/tema6/wi01.svg', alt='', class='img-fluid')
+              h5 Pedidos
+              p A través de este se solicitan productos o mercancías.
+          .img-wrap
+            img.img180(src='@/assets/curso/tema6/w02.png', alt='', class='img-fluid')
+            .img-wrap__texto
+              img.img90.my-4(src='@/assets/curso/tema6/wi02.svg', alt='', class='img-fluid')
+              h5 Entrada de almacén
+              p Es un documento con el cual se garantiza el ingreso de la mercancía en la empresa y se provee información sobre estas entradas.
+          .img-wrap
+            img.img180(src='@/assets/curso/tema6/w03.png', alt='', class='img-fluid')
+            .img-wrap__texto
+              img.img90.my-4(src='@/assets/curso/tema6/wi03.svg', alt='', class='img-fluid')
+              h5 Recepción de mercancías
+              p Se trata de certificar qué artículos se recibieron de los pedidos u órdenes de compra.
+          .img-wrap
+            img.img180(src='@/assets/curso/tema6/w04.png', alt='', class='img-fluid')
+            .img-wrap__texto
+              img.img90.my-4(src='@/assets/curso/tema6/wi04.svg', alt='', class='img-fluid')
+              h5 Controles de los niveles de stock
+              p Permite tener un control sobre las existencias en el almacén, los productos enviados y aquellos que necesitan ser repuestos.
+          .img-wrap
+            img.img180(src='@/assets/curso/tema6/w05.png', alt='', class='img-fluid')
+            .img-wrap__texto
+              img.img90.my-4(src='@/assets/curso/tema6/wi05.svg', alt='', class='img-fluid')
+              h5 Controles de los niveles de stock
+              p Permite tener un control sobre las existencias en el almacén, los productos enviados y aquellos que necesitan ser repuestos.
 
-    #t_3_6.pb-5.h2 tema 3.6
-    .pb-5(v-for="item of 15")
+        //- .row.mt-5.d-flex.flex-row
+        //-     .img-wrap
+        //-       img.img180(src='@/assets/curso/tema6/w01.png', alt='', class='img-fluid')
+        //-       .img-wrap__texto
+        //-         img.img90.my-4(src='@/assets/curso/tema6/wi01.svg', alt='', class='img-fluid')
+        //-         h5 Pedidos
+        //-         p A través de este se solicitan productos o mercancías.
+        //-     .img-wrap
+        //-       img.img180(src='@/assets/curso/tema6/w02.png', alt='', class='img-fluid')
+        //-       .img-wrap__texto
+        //-         img.img90.my-4(src='@/assets/curso/tema6/wi02.svg', alt='', class='img-fluid')
+        //-         h5 Entrada de almacén
+        //-         p Es un documento con el cual se garantiza el ingreso de la mercancía en la empresa y se provee información sobre estas entradas.
+        //-     .img-wrap
+        //-       img.img180(src='@/assets/curso/tema6/w03.png', alt='', class='img-fluid')
+        //-       .img-wrap__texto
+        //-         img.img90.my-4(src='@/assets/curso/tema6/wi03.svg', alt='', class='img-fluid')
+        //-         h5 Recepción de mercancías
+        //-         p Se trata de certificar qué artículos se recibieron de los pedidos u órdenes de compra.
+        //-     .img-wrap
+        //-       img.img180(src='@/assets/curso/tema6/w04.png', alt='', class='img-fluid')
+        //-       .img-wrap__texto
+        //-         img.img90.my-4(src='@/assets/curso/tema6/wi04.svg', alt='', class='img-fluid')
+        //-         h5 Controles de los niveles de stock
+        //-         p Permite tener un control sobre las existencias en el almacén, los productos enviados y aquellos que necesitan ser repuestos.
+        //-     .img-wrap
+        //-       img.img180(src='@/assets/curso/tema6/w05.png', alt='', class='img-fluid')
+        //-       .img-wrap__texto
+        //-         img.img90.my-4(src='@/assets/curso/tema6/wi05.svg', alt='', class='img-fluid')
+        //-         h5 Controles de los niveles de stock
+        //-         p Permite tener un control sobre las existencias en el almacén, los productos enviados y aquellos que necesitan ser repuestos.
+
 
 </template>
 
