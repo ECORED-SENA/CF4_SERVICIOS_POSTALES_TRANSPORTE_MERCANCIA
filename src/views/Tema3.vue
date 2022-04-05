@@ -30,19 +30,19 @@
                     th Características
                 tbody
                   tr
-                    td Pequeñas y medianas
+                    td.fs-6 Pequeñas y medianas
                     td Se pueden manipular con las manos (hasta 10 kg).
                   tr
-                    td Paletizadas
+                    td.fs-6 Paletizadas
                     td Se encuentran sobre paletas.
                   tr
-                    td Voluminosas
+                    td.fs-6 Voluminosas
                     td Sus dimensiones forman parte del producto, no se pueden apilar, ejemplo: lavadoras.
                   tr
-                    td Muy voluminosas
+                    td.fs-6 Muy voluminosas
                     td Puede ser una unidad muy grande o la agrupación de varias mercancías (contenedor).
                   tr
-                    td Volumen excepcional
+                    td.fs-6 Volumen excepcional
                     td Medidas extremadamente grandes que necesitan transporte especial, el cual debe contar con permisos y normas de señalización.
 
           .row(titulo="Según forma de ubicación")
@@ -54,10 +54,10 @@
                     th Características
                 tbody
                   tr
-                    td Sencillas 
+                    td.fs-6 Sencillas 
                     td Se depositan unidades individuales en las estanterías del almacén.
                   tr
-                    td Apilables
+                    td.fs-6 Apilables
                     td Se colocan unas encima de otras.
 
           .row(titulo="Según fragilidad")
@@ -69,13 +69,13 @@
                     th Características
                 tbody
                   tr
-                    td Resistentes 
+                    td.fs-6 Resistentes 
                     td Pueden soportar mucho peso, ejemplo: losas de mármol.
                   tr
-                    td Ligeras
+                    td.fs-6 Ligeras
                     td Soportan peso encima, pero con limitaciones, ejemplo: cajas de leche.
                   tr
-                    td Frágiles 
+                    td.fs-6 Frágiles 
                     td No soportan peso encima, se deben poner de manera individual.
 
           .row(titulo="Según propiedades")
@@ -87,10 +87,10 @@
                     th Características
                 tbody
                   tr
-                    td Perecederas
+                    td.fs-6 Perecederas
                     td Tienen fecha de caducidad, por eso hay que dar salida a la mercancía más antigua. Por ejemplo: alimentación o fármacos.
                   tr
-                    td Duraderas
+                    td.fs-6 Duraderas
                     td No es necesario establecer un orden prioritario de salida y el tiempo de almacenaje no es una variable primordial.
 
           .row(titulo="Según rotación")
@@ -102,13 +102,13 @@
                     th Características
                 tbody
                   tr
-                    td Altas
+                    td.fs-6 Altas
                     td Aquellas con ritmo elevado de entradas y salidas.
                   tr
-                    td Medias
+                    td.fs-6 Medias
                     td Rotación media.
                   tr
-                    td Bajas
+                    td.fs-6 Bajas
                     td Apenas registran movimientos en el almacén.
 
       .col.col-12
@@ -121,32 +121,34 @@
             table.tabla-color-acento-contenido.w-100
               thead
                 tr
-                  th Codificación por estantería o lineal
+                  th.fs-6 Codificación por estantería o lineal
               tbody
                 tr
                   td 
-                    img(src='@/assets/curso/tema3/img02.svg', alt='Codificación por estantería o lineal', class='img-fluid')
+                    img.w-75.m-auto(src='@/assets/curso/tema3/img02.svg', alt='Codificación por estantería o lineal', class='img-fluid')
                 tr
                   td.bg-color-acento-contenido
-                    p
+                    p.fs-6
                       span.fw-bold Nota. 
                       | Tomada de Campo, Hervás y Revilla (2013).
-                    p Las estanterías se numeran de forma correlativa, adicionalmente se deben numerar los niveles de profundidad o ubicaciones, posteriormente se numeran las alturas, empezando por el suelo asignando un número de forma correlativa a medida que se asciende. Se pueden realizar recorridos de ida y vuelta en el mismo pasillo.
+                    br
+                    p.fs-6 Las estanterías se numeran de forma correlativa, adicionalmente se deben numerar los niveles de profundidad o ubicaciones, posteriormente se numeran las alturas, empezando por el suelo asignando un número de forma correlativa a medida que se asciende. Se pueden realizar recorridos de ida y vuelta en el mismo pasillo.
           .col.col-12.col-lg-6
             table.tabla-color-acento-contenido.w-100
               thead.bg-color-acento-contenido-opa
                 tr
-                  th Codificación por pasillo o peine
+                  th.fs-6 Codificación por pasillo o peine
               tbody
                 tr
                   td 
-                    img(src='@/assets/curso/tema3/img03.svg', alt='Codificación por pasillo o peine', class='img-fluid')
+                    img.w-75.m-auto(src='@/assets/curso/tema3/img03.svg', alt='Codificación por pasillo o peine', class='img-fluid')
                 tr
                   td.bg-color-acento-contenido-opa 
-                    p
+                    p.fs-6
                       span.fw-bold Nota. 
                       | Tomada de Campo, Hervás y Revilla (2013).
-                    p Cada pasillo tiene asignado un consecutivo, de tal forma que solo se puede recorrer el pasillo en un solo sentido. Se irán numerando de izquierda a derecha los niveles de profundidad, con el fin de asignar los números impares a la izquierda y los pares a la derecha, posteriormente se deben numerar las alturas de cada nivel
+                    br
+                    p.fs-6 Cada pasillo tiene asignado un consecutivo, de tal forma que solo se puede recorrer el pasillo en un solo sentido. Se irán numerando de izquierda a derecha los niveles de profundidad, con el fin de asignar los números impares a la izquierda y los pares a la derecha, posteriormente se deben numerar las alturas de cada nivel
             
         .cajon.color-primario.p-4.mb-4
           p Aunque normalmente se usan estanterías sencillas de una o dos posiciones, es importante tener en cuenta la rotación del producto y la facilidad de acceso, para este caso se podría hacer uso de estanterías dinámicas por gravedad, las cuales permiten que el producto siempre esté disponible para su recogida teniendo en cuenta que los mecanismos de rodillo facilitan el trabajo, en este caso se utiliza el sistema FIFO (primeros en entrar, primeros en salir).

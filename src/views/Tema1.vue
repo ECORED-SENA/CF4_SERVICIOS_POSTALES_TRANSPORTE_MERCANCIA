@@ -57,7 +57,7 @@
             h5.mb-0 Estáticos
           table
             tr
-              th Silos
+              th.fs-6 Silos
               td Se utilizan para almacenar mercancía a granel: por ejemplo, arroz, trigo y en empresas de materiales prefabricados se almacenan, cemento o yeso.
 
         .tabla-b.color-acento-contenido.mb-5
@@ -65,11 +65,11 @@
             h5.mb-0 Dinámicos
           table
             tr
-              th Sin traslado
+              th.fs-6 Sin traslado
               td A través de un movimiento continuo permiten el transporte de mercancía a través de equipos que están fijados al suelo o al techo del edificio: cintas transportadoras, grúas aéreas y transelevadores.
 
             tr
-              th Con traslado
+              th.fs-6 Con traslado
               td 
                 p 
                   span.fw-bold Manuales:

@@ -59,8 +59,8 @@
               img.img450(src='@/assets/curso/tema6/w05.jpg', alt='', class='img-fluid')
               .tarjeta-text-up-full__texto
                 img.img90.my-4(src='@/assets/curso/tema6/wi05.svg', alt='', class='img-fluid')
-                h5 Controles de los niveles de stock
-                p Permite tener un control sobre las existencias en el almacén, los productos enviados y aquellos que necesitan ser repuestos.
+                h5 Tarjeta de almacén
+                p Se registran todos los movimientos de mercancía, para llevar un control sobre las entradas y salidas, así como saber cuándo es necesario realizar un nuevo pedido.
 
 </template>
 

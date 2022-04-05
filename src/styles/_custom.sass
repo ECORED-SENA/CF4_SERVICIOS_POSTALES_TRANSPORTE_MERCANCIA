@@ -57,6 +57,9 @@
     &__texto
       width: 75%
 
+.me-1, .me-1 + i
+  color: white
+
 // Banner
 .banner-principal .container.tarjeta
   @media screen and (max-width: 990px)      
@@ -94,6 +97,16 @@
     background-image: url("../assets/curso/banner/1.png")
 
 
+.img01
+  border: 1px solid #eeeeee
+  position: absolute
+  background-image: url("../assets/curso/tema3/n01.svg")
+  width: 100%
+  height: 100%
+  background-repeat: no-repeat
+  &:hover
+    background-image: url("../assets/curso/tema3/n01_h.svg")
+
 // Tema 1 
 .tarjeta-amarilla
   background-color: #FED981
@@ -112,12 +125,15 @@
 
 .tabs-a__tab
   background-color: #E8E8E8
-  font-size: small
+  font-size: medium
+  padding: 10px
+  @media screen and (min-width: 1200px) and (max-width: 1399px)
+    font-size: small
 .tabs-a__content-item
   background-color: rgba(#F9D98D,0.15)
   border: 1px solid rgba(#E3BD63,0.15)
   border-radius: 15px
-
+  
 // Tema 2
 .sobre-flotante-t2
   position: absolute
@@ -280,7 +296,7 @@ table.tabla-color-acento-contenido
     height: 100%
     background-color: #FFDE96
     transition: all .5s ease-in-out
-    padding: 0 15px
+    padding: 0 30px
     @media screen and (max-width: 1399px)
       font-size: 0.9em
     @media screen and (max-width: 1199px)
@@ -300,16 +316,25 @@ table.tabla-color-acento-contenido
       display: none      
   &:hover
     .tarjeta-text-up__texto
+      display: flex !important
+      align-items: center !important
+      flex-direction: column
+      justify-content: center
+      align-items: center
       bottom: 0  
       border-radius: 7px
     p, ol
-      display: block   
+      display: block 
 
 // Tema 6
 .tarjeta-text-up-full
   position: relative
   overflow: hidden  
   &__texto
+    display: flex
+    align-items: right 
+    flex-direction: column
+    justify-content: center
     font-size: 1em
     position: absolute
     bottom: -100%
@@ -318,7 +343,7 @@ table.tabla-color-acento-contenido
     height: 100%
     background-color: #FFEECA
     transition: all .5s ease-in-out
-    padding: 20px 15px
+    padding: 20px 35px
   &:hover
     .tarjeta-text-up-full__texto
       bottom: 0  
@@ -354,6 +379,9 @@ table.tabla-color-acento-contenido
     bottom: -15%
   @media screen and (max-width: 991px)
     bottom: -5%    
+
+.bloque-texto-d.color-primario:before
+  background-color: rgba($color-primario, 0.2)
 
 // tema 9
 .sobre-flotante-t9
