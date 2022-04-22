@@ -20,31 +20,31 @@
             .row.justify-content-center.mb-3
               .col-auto.my-4
                 img.img90(src='@/assets/curso/tema2/s01.svg' alt='AvatarTop')
-            p Maximización del espacio.
+            p.text-center Maximización del espacio.
         
           .tarjeta.color-acento-contenido.p-4
             .row.justify-content-center.mb-3
               .col-auto.my-4
                 img.img90(src='@/assets/curso/tema2/s02.svg' alt='AvatarTop')
-            p Maximización en la utilidad de los equipos.
+            p.text-center Maximización en la utilidad de los equipos.
 
           .tarjeta.color-primario.p-4
             .row.justify-content-center.mb-3
               .col-auto.my-4
                 img.img90(src='@/assets/curso/tema2/s03.svg' alt='AvatarTop')
-            p Maximización en el acceso a todos los materiales y mercancías.
+            p.text-center Maximización en el acceso a todos los materiales y mercancías.
         
           .tarjeta.color-acento-contenido.p-4
             .row.justify-content-center.mb-3
               .col-auto.my-4
                 img.img90(src='@/assets/curso/tema2/s04.svg' alt='AvatarTop')
-            p Maximización de la protección de todos los materiales y mercancías.
+            p.text-center Maximización de la protección de todos los materiales y mercancías.
 
           .tarjeta.color-primario.p-4
             .row.justify-content-center.mb-3
               .col-auto.my-4
                 img.img90(src='@/assets/curso/tema2/s05.svg' alt='AvatarTop')
-            p Maximización de la utilización de la mano de obra.
+            p.text-center Maximización de la utilización de la mano de obra.
 
         .row.mb-5.d-flex.align-items-center
           .col.col-12.col-lg-4.position-relative
@@ -168,12 +168,12 @@
                       img(src='@/assets/curso/tema2/img12.png', alt='Almacén de productos terminados', class='img-fluid')
                       p.mt-4
                         span.fw-bold Almacén de productos terminados: 
-                        | su función principal es ser regulador para varias empresas, consiguiendo que los productos tengas el mayor índice de rotación posible.
+                        | su función principal es ser regulador para varias empresas, consiguiendo que los productos tengan el mayor índice de rotación posible.
                     .col.col-4
                       img(src='@/assets/curso/tema2/img13.png', alt='Almacén general', class='img-fluid')
                       p.mt-4
                         span.fw-bold Almacén general: 
-                        | se usa para almacenar herramientas y materiales auxiliares para la producción: combustible, baterías, , material de limpieza, etc.
+                        | se usa para almacenar herramientas y materiales auxiliares para la producción: combustible, baterías, material de limpieza, etc.
               .col-12.mt-2
                 h4.text-end Según la actividad de la empresa
 
@@ -220,33 +220,34 @@
 
     .row.d-flex.justify-content-center
       .col.col-10.my-4
-        table.tabla-color-acento-contenido.m-auto
-          thead
-            tr
-              th.w-25 Forma de apilado
+        .tabla-a.color-acento-contenido.mt-5 
+          table
+            thead
+            tr.bg-table1
+              th.w-25.text-center Forma de apilado
               th Características
-          tbody              
-            tr
-              th Almacenamiento ordenado
-              td 
-                p Los productos están asignados a una ubicación específica. 
-                p La manipulación se realiza de forma eficaz.
-                p Permite mayor control de existencias.
-            tr
-              th Almacenamiento no regulado
-              td 
-                p Según la rotación de la mercancía se van ocupando zonas disponibles. 
-                p Deficiente control de existencias.
-            tr
-              th Almacenamiento en bloque
-              td 
-                p Almacenamiento según las operaciones de carga y descarga.
-                p No requiere gastos derivados de instalaciones específicas.
-            tr
-              th Almacenamiento a granel
-              td 
-                p Para materiales diseñados como unidades de carga.
-                p Según el tipo de producto, puede ser compatible con las condiciones ambientales del entorno.
+            tbody              
+              tr.bg-table2
+                th.text-center Almacenamiento ordenado
+                td.text-table 
+                  p.px-5.mb-0 Los productos están asignados a una ubicación específica. 
+                  p.px-5.mb-0 La manipulación se realiza de forma eficaz.
+                  p.px-5.mb-0 Permite mayor control de existencias.
+              tr
+                th.text-center Almacenamiento no regulado
+                td.text-table 
+                  p.px-5 Según la rotación de la mercancía se van ocupando zonas disponibles. 
+                  p.px-5 Deficiente control de existencias.
+              tr.bg-table2
+                th.text-center Almacenamiento en bloque
+                td.text-table 
+                  p.px-5.mb-0 Almacenamiento según las operaciones de carga y descarga.
+                  p.px-5.mb-0 No requiere gastos derivados de instalaciones específicas.
+              tr
+                th.text-center Almacenamiento a granel
+                td.text-table 
+                  p.px-5.mb-0 Para materiales diseñados como unidades de carga.
+                  p.px-5.mb-0 Según el tipo de producto, puede ser compatible con las condiciones ambientales del entorno.
       
       .col.col-12.my-4
         p Adicionalmente, a nivel general se pueden identificar los siguientes sistemas de almacenamiento:

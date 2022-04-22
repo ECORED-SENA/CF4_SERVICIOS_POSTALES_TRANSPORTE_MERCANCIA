@@ -33,15 +33,15 @@
       .col.col-12.col-lg-4.p-0
         .tarjeta-amarilla.m-2
           p 01
-          p Espacio físico del almacén.
+          p.mt-2 Espacio físico del almacén.
       .col.col-12.col-lg-4.p-0
         .tarjeta-amarilla.m-2
           p 02
-          p Condiciones de trabajo.
+          p.mt-2 Condiciones de trabajo.
       .col.col-12.col-lg-4.p-0
         .tarjeta-amarilla.m-2
           p 03
-          p Rotación de los productos, entre otros.
+          p.mt-2 Rotación de los productos, entre otros.
         
     .row.mt-4
       .col.col-12
@@ -176,7 +176,7 @@
             .row
               .col-md-8.mb-4.mb-md-0
                 h4 Carretillas o montacargas
-                p Son equipos de contrapeso que cumplen con la función de transportar y soportar mediante la parte delantera del vehículo cualquier tipo de carga en pallets o contenedores. Pueden ser de los siguientes tipos:
+                p Son equipos de contrapeso que cumplen con la función de transportar y soportar mediante la parte delantera del vehículo cualquier tipo de carga en #[i pallets] o contenedores. Pueden ser de los siguientes tipos:
                 p 
                   span.fw-bold a. Contrabalanceada: 
                   | vehículo autopropulsado que realiza la carga por delante del punto de apoyo mediante horquillas.
@@ -213,7 +213,7 @@
                   | el detector genera una señal que es intensa cuando se encuentra situado sobre la banda y disminuye si se desvía.
                 p 
                   span.fw-bold c. Opto guiado: 
-                  | siguen una trayectoria a través de una linea de pintura o banda adhesiva blanca, efectuando la detección de la línea mediante sensores ópticos 
+                  | siguen una trayectoria a través de una linea de pintura o banda adhesiva blanca, efectuando la detección de la línea mediante sensores ópticos. 
 
               .col-md-4
                 figure

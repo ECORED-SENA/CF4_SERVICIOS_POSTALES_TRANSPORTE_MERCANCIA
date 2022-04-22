@@ -19,8 +19,8 @@
             p
               span.fw-bold También llamado WMS 
                 em (Warehousing Management System) 
-                | es un software que permite la gestión y control de las actividades que se realizan en el almacén, llamado “el corazón” del centro de distribución. 
-              | A través de este se logra un control sobre todas las fases de la operación logística, este sistema maneja desde el control de inventario, asignación de tareas y equipos en tiempo real a partir de una serie de configuraciones de manera personalizadas, haciendo uso por ejemplo de alarmas que permiten avisar los límites de stock y evitar roturas. 
+                | es un #[i software ]que permite la gestión y control de las actividades que se realizan en el almacén, llamado “el corazón” del centro de distribución. 
+            p A través de este se logra un control sobre todas las fases de la operación logística, este sistema maneja desde el control de inventario, asignación de tareas y equipos en tiempo real a partir de una serie de configuraciones de manera personalizadas, haciendo uso por ejemplo de alarmas que permiten avisar los límites de #[i stock] y evitar roturas. 
 
             p Se ha hecho evidente la evolución del proceso a través del cual se registra y manipula toda actividad logística pasando desde el uso de papel y lápiz por el registro de tablas de Excel hasta la aplicación de los sistemas SGA y radiofrecuencia. 
 

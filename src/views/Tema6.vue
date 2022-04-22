@@ -9,13 +9,13 @@
             span 6
           h1 Registros
 
-        p Cada fase del proceso logístico debe estar documentado, con el fin de tener un mayor control sobre las actividades que se realizan; con la implementación de un software SGA se logra la automatización de la recopilación de información para facilitar el control de los documentos de los almacenes, además de reducir los errores y aumentar la productividad.
+        p Cada fase del proceso logístico debe estar documentado, con el fin de tener un mayor control sobre las actividades que se realizan; con la implementación de un #[i software] SGA se logra la automatización de la recopilación de información para facilitar el control de los documentos de los almacenes, además de reducir los errores y aumentar la productividad.
 
-        p Existen diferentes tipos de software con los que se logra:
+        p Existen diferentes tipos de #[i software] con los que se logra:
         
         img.img700.m-auto.my-5(src='@/assets/curso/tema6/img01.svg', alt='Tipos de software', class='img-fluid')   
 
-        p La única manera de registrar las operaciones que se realizan en el almacén es a través de documentos y las soluciones de software son las que permiten hoy en día automatizar la recogida de la información y facilitar el acceso a los datos en cualquier momento y lugar.
+        p La única manera de registrar las operaciones que se realizan en el almacén es a través de documentos y las soluciones de #[i software] son las que permiten hoy en día automatizar la recogida de la información y facilitar el acceso a los datos en cualquier momento y lugar.
 
         p Algunos de los documentos que se utilizan para registrar las actividades en el almacén son los siguientes:
 
@@ -51,7 +51,7 @@
               img.img450(src='@/assets/curso/tema6/w04.jpg', alt='', class='img-fluid')
               .tarjeta-text-up-full__texto
                 img.img90.my-4(src='@/assets/curso/tema6/wi04.svg', alt='', class='img-fluid')
-                h5 Controles de los niveles de stock
+                h5 Controles de los niveles de #[i stock]
                 p Permite tener un control sobre las existencias en el almacén, los productos enviados y aquellos que necesitan ser repuestos.
 
           .col.col-12.col-lg-4

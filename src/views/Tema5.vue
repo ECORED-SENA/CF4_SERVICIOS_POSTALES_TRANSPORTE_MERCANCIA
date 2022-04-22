@@ -9,7 +9,7 @@
             span 5
           h1 Herramientas de comunicación
 
-        p A través de las herramientas de información y comunicación se busca mejorar los flujos de información, hoy en día en la gestión de los almacenes se utilizan diferentes Tecnologías de la Información y la Comunicación como:
+        p A través de las herramientas de información y comunicación se busca mejorar los flujos de información, hoy en día en la gestión de los almacenes se utilizan diferentes tecnologías de la información y la comunicación como:
 
 
         ol.mt-5.lista-ol--cuadro.lista-separador
@@ -73,17 +73,17 @@
                 h5
                   em
                     | RFID (Radio Frecuency Identification)               
-                p.mb-0 Es una tecnología la cual usa ondas de radio para identificar los productos de forma automática, involucrando el uso de etiquetas o tags que emiten señales de radio a los encargados de recoger las señales. Este sistema tiene gran potencial de uso ya que permite la codificación de los productos con el estándar internacional de codificación, la cual identifica de manera única un producto a nivel mundial.
+                p.mb-0 Es una tecnología la cual usa ondas de radio para identificar los productos de forma automática, involucrando el uso de etiquetas o #[i tags] que emiten señales de radio a los encargados de recoger las señales. Este sistema tiene gran potencial de uso ya que permite la codificación de los productos con el estándar internacional de codificación, la cual identifica de manera única un producto a nivel mundial.
           .col.col-12.col-md-6.col-lg-4.mt-4
             .tarjeta-text-up
               img(src='@/assets/curso/tema5/img04.png', alt='WMS', class='img-fluid')
               .tarjeta-text-up__texto
-                h5.font-italic Picking to voice y picking to light                
+                h5.font-italic #[i Picking to voice y picking to light]                
                 p.mb-0 El  
-                  span.fw-bold.font-italic picking to light 
+                  span.fw-bold.font-italic #[i picking to light ]
                   | es un conjunto de luces que indican las ubicaciones donde recoger los productos, las cantidades y tienen conexión con el sistema de inventarios, el cual se actualiza en tiempo real una vez realizada la operación.
                 p.mb-0 El  
-                  span.fw-bold.font-italic picking to voice 
+                  span.fw-bold.font-italic #[i picking to voice ]
                   | permite al operario del almacén llevar un equipo de comunicación para recibir y enviar mensajes acerca de las operaciones de recogida de productos.
           .col.col-12.col-md-6.col-lg-4.mt-4
             .tarjeta-text-up
@@ -100,7 +100,7 @@
                 h5
                   em
                     | YMS (Yard Management System)              
-                p.mb-0 Sistema de administración de patios, el cual permite controlar los muelles de recepción y despacho, rastreo y seguimiento del movimiento que realizan los trailers a través de tecnología de localización en tiempo real.
+                p.mb-0 Sistema de administración de patios, el cual permite controlar los muelles de recepción y despacho, rastreo y seguimiento del movimiento que realizan los #[i trailers] a través de tecnología de localización en tiempo real.
 
 
 
