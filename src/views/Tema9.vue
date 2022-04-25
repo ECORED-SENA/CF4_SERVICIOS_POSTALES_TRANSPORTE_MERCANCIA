@@ -24,8 +24,8 @@
         .cajon.color-primario.p-4.mb-4
           .row.py-4.px-0.d-flex.justify-content-center
             .col.col-10.px-0
-              p.fw-bold Por ejemplo
-              P Si el volumen del inventario ha aumentado se deberá espaciar el aprovisionamiento o reducir la cantidad de existencias, ayudando a reducir los productos obsoletos o caducados y en el caso de que el inventario se haya reducido se debe controlar que el nivel de servicio no baje al reducir el tiempo de aprovisionamiento o aumentar las faltas de existencia
+              p.fw-bold Por ejemplo:
+              P Si el volumen del inventario ha aumentado se deberá espaciar el aprovisionamiento o reducir la cantidad de existencias, ayudando a reducir los productos obsoletos o caducados y en el caso de que el inventario se haya reducido se debe controlar que el nivel de servicio no baje al reducir el tiempo de aprovisionamiento o aumentar las faltas de existencia.
 
         p.py-4 Teniendo en cuenta lo anterior, los tipos de desviaciones que pueden darse son:
 
