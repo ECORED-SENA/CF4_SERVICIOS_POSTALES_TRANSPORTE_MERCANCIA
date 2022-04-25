@@ -218,14 +218,13 @@ export default {
       texto:
         'Gómez, A., Iglesias, M., De la Fuente, D., y Menéndez, M. (2008). <em>Estado del arte en políticas de ubicación de productos en almacén.</em>',
       tipo: 'Artículo',
-      link:
-        'http://adingor.es/congresos/web/uploads/cio/cio2008/LOGISTIC//1095-1102.pdf',
+      descarga: '/downloads/politicas_de_ubicacion_de_productos_en_almacen.pdf',
     },
     {
       texto:
         'Correa, A., Gómez, R., y Cano, J. (2009). <em>Gestión de almacenes y Tecnologías de la Información y Comunicación (TIC).</em>',
       tipo: 'Artículo',
-      link: 'http://www.scielo.org.co/pdf/eg/v26n117/v26n117a09.pdf',
+      descarga: '/downloads/gestion_de_almacenes_y_tic.pdf',
     },
   ],
   creditos: {
