@@ -136,7 +136,7 @@ export default {
     },
     {
       referencia:
-        'Correa Espinal, A., & Gómez Montoya , R. (Septiembre de 2009). <em>Tecnologías de la información y comunicación en la gestión de almacenes</em>.',
+        'Correa Espinal, A., & Gómez Montoya , R. (Septiembre de 2009). <em>Gestión de almacenes y tecnologías de la información y comunicación (TIC)</em>.',
       link: 'http://www.scielo.org.co/pdf/eg/v26n117/v26n117a09.pdf',
     },
     {

@@ -16,7 +16,7 @@
             .bloque-texto-d.color-primario.p-4
               .bloque-texto-d__texto.mb-2
                 i.fas.fa-quote-left
-                h3.text-regular El <em> software</em> con el cual se realiza el control del almacén dispone de herramientas para para asignar valores a cada ubicación, por ejemplo, peso, volumen, capacidad, etc. y es mediante este <em> software</em> que se puede definir y parametrizar el almacén con el fin de facilitar la realización de las actividades de entrada, ubicación y preparación de los productos, para lograr una optimización de recorridos en el almacén.
+                h3.text-regular El <em> software</em> con el cual se realiza el control del almacén dispone de herramientas para asignar valores a cada ubicación, por ejemplo, peso, volumen, capacidad, etc. y es mediante este <em> software</em> que se puede definir y parametrizar el almacén con el fin de facilitar la realización de las actividades de entrada, ubicación y preparación de los productos, para lograr una optimización de recorridos en el almacén.
                 i.fas.fa-quote-right
               .bloque-texto-d__autor
                 .h5.mb-0 (Campo, Hervás y Revilla, 2013)

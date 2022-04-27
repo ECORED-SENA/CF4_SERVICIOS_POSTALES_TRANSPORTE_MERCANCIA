@@ -129,9 +129,9 @@
             p.p-3.text-center.bg-color-acento-contenido Codificación por estantería o lineal
             img.w-75.m-auto.mt-3(src='@/assets/curso/tema3/img02.svg', alt='Codificación por estantería o lineal', class='img-fluid')
             .bg-color-acento-contenido.p-4.mt-3
-              p #[b  Nota.] Tomada de Campo, Hervás y Revilla 
+              p #[b  Nota.] Tomada de Campo, Hervás y Revilla (2013). 
               
-              p.mb-0 (2013) Las estanterías se numeran de forma correlativa, adicionalmente se deben numerar los niveles de profundidad o ubicaciones, posteriormente se numeran las alturas, empezando por el suelo asignando un número de forma correlativa a medida que se asciende. Se pueden realizar recorridos de ida y vuelta en el mismo pasillo.
+              p.mb-0 Las estanterías se numeran de forma correlativa, adicionalmente se deben numerar los niveles de profundidad o ubicaciones, posteriormente se numeran las alturas, empezando por el suelo asignando un número de forma correlativa a medida que se asciende. Se pueden realizar recorridos de ida y vuelta en el mismo pasillo.
           .col-lg-6.my-5
             p.p-3.text-center.bg-color-acento-contenido Codificación por pasillo o peine
             img.w-75.m-auto.mt-3(src='@/assets/curso/tema3/img03.svg', alt='Codificación por pasillo o peine', class='img-fluid')
